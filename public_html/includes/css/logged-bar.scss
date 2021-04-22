@@ -1,0 +1,29 @@
+$white: #fff;
+$dark-gray: #444;
+$black: #000;
+*{
+}
+#logged-bar{
+    background-color: $dark-gray;
+    padding-top: 7px;
+    color: #fff;
+    z-index: 8000;
+}
+#logged-bar p{
+    font-size: 20px;
+
+}
+#logged-bar ul{
+    text-align: right;
+    font-size: 18px;
+}
+#logged-bar>ul>li{
+    list-style-type: none;
+    display:inline;
+    margin-right: 5%;
+
+}
+#logged-bar>ul>li>a:link{
+    text-decoration: none;
+    color: $white;
+}
